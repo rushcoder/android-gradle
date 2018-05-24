@@ -4,7 +4,7 @@ apply plugin: 'maven-publish'
 publishing {
     publications {
         aar(MavenPublication) {
-            groupId 'com.lestar.app'
+            groupId packageName
             version = libraryVersion
             artifactId moduleName
 

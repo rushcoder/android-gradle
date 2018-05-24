@@ -13,3 +13,8 @@
 
  ##### 引入upload脚本
  > apply from: 'https://github.com/rushcoder/android-gradle.git/nexus_upload.gradle'
+
+ ### artifactory
+ > artifactory_username=admin
+artifactory_password=lestar123456
+artifactory_url=http://localhost:8081/artifactory
