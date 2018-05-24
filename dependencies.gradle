@@ -1,0 +1,87 @@
+ext {
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.2'
+    minSdkVersion = 19
+    targetSdkVersion = 26
+
+    // App dependencies
+    supportLibraryVersion = '26.+'
+    gsonVersion = '2.8.0'
+    retrofitVersion = '2.3.0'
+    okhttp3Version = '3.8.0'
+    okioVersion = '1.13.0'
+    greendaoVersion = '2.0.0'
+    picassoVersion = '2.5.2'
+    glideVersion = '3.7.0'
+    eventbusVersion = '3.0.0'
+    nineoldandroidsVersion = '2.4.0'
+    loggerVersion = '1.15'
+    //ui
+    flexboxVersion = '0.2.6'
+    constraintLayoutVersion = '1.0.2'
+
+    //RxJava RxAndroid dependencies
+    rxJavaVersion = '1.1.0'
+    rxAndroidVersion = '1.1.0'
+    rxJava2Version = '2.0.8'
+    rxAndroid2Version = '2.0.1'
+    stethoVersion = '1.4.2'
+    butterknifeVersion = '8.2.1'
+    daggerVersion = '2.11'
+    leakcanaryVersion = '1.5'
+    autovalueVersion = "1.2"
+    //Test dependencies
+    junitVersion = '4.12'
+
+    dep = [
+            appcompatV7            : "com.android.support:appcompat-v7:$supportLibraryVersion",
+            supportV4              : "com.android.support:support-v4:$supportLibraryVersion",
+            supportAnnotations     : "com.android.support:support-annotations:$supportLibraryVersion",
+            design                 : "com.android.support:design:$supportLibraryVersion",
+            vectorDrawable         : "com.android.support:support-vector-drawable:$supportLibraryVersion",
+            vectorAnimate          : "com.android.support:animated-vector-drawable:$supportLibraryVersion",
+            recyclerview           : "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            cardview               : "com.android.support:cardview-v7:$supportLibraryVersion",
+            flexbox                : "com.google.android:flexbox:$flexboxVersion",
+            constraintLayout       : "com.android.support.constraint:constraint-layout:$constraintLayoutVersion",
+            okhttp3                : "com.squareup.okhttp3:okhttp:$okhttp3Version",
+            okhttp3Log             : "com.squareup.okhttp3:logging-interceptor:$okhttp3Version",
+            okio                   : "com.squareup.okio:okio:$okioVersion",
+            retrofit               : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitGson           : "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            retrofitRxjava         : "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion",
+            retrofitRxjava2        : "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
+            gson                   : "com.google.code.gson:gson:$gsonVersion",
+            picasso                : "com.squareup.picasso:picasso:$picassoVersion",
+            picassoOkhttp3         : "com.jakewharton.picasso:picasso2-okhttp3-downloader:1.0.2",
+            pollexor               : "com.squareup:pollexor:2.0.4",
+            glide                  : "com.github.bumptech.glide:glide:$glideVersion",
+            logger                 : "com.orhanobut:logger:$loggerVersion",
+            rxjava                 : "io.reactivex:rxjava:$rxJavaVersion",
+            rxandroid              : "io.reactivex:rxandroid:$rxAndroidVersion",
+            rxjava2                : "io.reactivex.rxjava2:rxjava:$rxJava2Version",
+            rxandroid2             : "io.reactivex.rxjava2:rxandroid:$rxAndroid2Version",
+            butterknife            : "com.jakewharton:butterknife:$butterknifeVersion",
+            butterknifeCompiler    : "com.jakewharton:butterknife-compiler:$butterknifeVersion",
+            dagger2                : "com.google.dagger:dagger:$daggerVersion",
+            dagger2Compiler        : "com.google.dagger:dagger-compiler:$daggerVersion",
+            dagger2Android         : "com.google.dagger:dagger-android:$daggerVersion",
+            dagger2AndroidSupport  : "com.google.dagger:dagger-android-support:$daggerVersion",
+            dagger2AndroidCompiler : "com.google.dagger:dagger-android-processor:$daggerVersion",
+            javaxAnnotation        : 'org.glassfish:javax.annotation:10.0-b28',
+            stetho                 : "com.facebook.stetho:stetho:$stethoVersion",
+            stethoOkhttp3          : "com.facebook.stetho:stetho-okhttp3:$stethoVersion",
+            leakcanaryDebug        : "com.squareup.leakcanary:leakcanary-android:$leakcanaryVersion",
+            leakcanaryRelease      : "com.squareup.leakcanary:leakcanary-android-no-op:$leakcanaryVersion",
+            autovalue              : "com.google.auto.value:auto-value:$autovalueVersion",
+            autovalueGson          : "com.ryanharter.auto.value:auto-value-gson:0.4.6",
+            autovalueParcel        : "com.ryanharter.auto.value:auto-value-parcel:0.2.5",
+            autovalueParcelAdapter : "com.ryanharter.auto.value:auto-value-parcel-adapter:0.2.5",
+            eventbus3              : "org.greenrobot:eventbus:$eventbusVersion",
+            eventbus3Compiler      : "org.greenrobot:eventbus-annotation-processor:3.0.1",
+            ARouter                : "com.alibaba:arouter-api:1.2.2",
+            ARouterCompiler        : "com.alibaba:arouter-compiler:1.1.3",
+            junit                  : "junit:junit:$junitVersion"
+
+    ]
+}
